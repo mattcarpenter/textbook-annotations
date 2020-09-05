@@ -20,6 +20,9 @@ function Honbun({ honbun, grammar }) {
 
   const [grammarDrawerOpen, setGrammarDrawerOpen] = useState(false);
   const [grammarDrawerGrammar, setGrammarDrawerGrammar] = useState();
+  const [grammarDrawerContent, setGrammarDrawerContent] = useState();
+  const [grammarDrawerLookupTerm, setGrammarDrawerLookupTerm] = useState();
+
   const honbunEl = useRef(null);
 
   // prepare grammar annotations
@@ -39,6 +42,7 @@ function Honbun({ honbun, grammar }) {
       <AnnotatedGrammar
         text={annotationMatch[1]}
         onClick={() => {
+          setGrammarDrawerContent('grammar');
           setGrammarDrawerGrammar(grammar[grammarName]);
           setGrammarDrawerOpen(true);
         }}
@@ -56,9 +60,33 @@ function Honbun({ honbun, grammar }) {
       <div style={styles} ref={honbunEl}>
         {replacedText}
       </div>
-      <Popover selectionRef={honbunEl}>
-        <AwesomeButton type="primary" style={{height: 30}}>Look Up</AwesomeButton>&nbsp;
-        <AwesomeButton type="secondary" style={{height: 30}}>Translate</AwesomeButton>
+      <Popover
+        selectionRef={honbunEl}
+        onTextSelect={() => {
+          // @ts-ignore
+          setGrammarDrawerLookupTerm(window.getSelection().toString());
+        }}
+      >
+        <AwesomeButton
+          type="primary"
+          style={{height: 30}}
+          onPress={() => {
+            setGrammarDrawerContent('dictionary');
+            setGrammarDrawerOpen(true);
+          }}
+        >
+          Look Up
+        </AwesomeButton>&nbsp;
+        <AwesomeButton
+          type="secondary"
+          style={{height: 30}}
+          onPress={() => {
+            setGrammarDrawerContent('translate');
+            setGrammarDrawerOpen(true);
+          }}
+        >
+          Translate
+        </AwesomeButton>
       </Popover>
       <Drawer
         open={grammarDrawerOpen}
@@ -66,7 +94,7 @@ function Honbun({ honbun, grammar }) {
         modalElementClass="modal"
       >
         <div>
-          {grammarDrawerGrammar &&
+          {grammarDrawerGrammar && grammarDrawerContent === 'grammar' &&
             <div className="drawer-container">
               <h2>{grammarDrawerGrammar.name}</h2>
               {grammarDrawerGrammar.definition}
@@ -82,6 +110,18 @@ function Honbun({ honbun, grammar }) {
               {grammarDrawerGrammar.examples &&
               <pre>{JSON.stringify(grammarDrawerGrammar.examples, null, '\t')}</pre>
               }
+            </div>
+          }
+          {grammarDrawerLookupTerm && grammarDrawerContent === 'dictionary' &&
+            <div>
+              <h2>Dictionary Lookup</h2>
+              <iframe style={{width: '100%', maxHeight: '50vh', height: 500}} src={`https://jisho.org/search/${grammarDrawerLookupTerm}`}></iframe>
+            </div>
+          }
+          {grammarDrawerLookupTerm && grammarDrawerContent === 'translate' &&
+            <div>
+              <h2>Translate</h2>
+              <iframe style={{width: '100%', maxHeight: '50vh', height: 500}} src={`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${grammarDrawerLookupTerm}`}></iframe>
             </div>
           }
         </div>
