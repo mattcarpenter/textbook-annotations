@@ -1,9 +1,14 @@
 import React from 'react';
 import reactStringReplace from 'react-string-replace';
 
-function AnnotatedGrammar({text, grammar}) {
+function AnnotatedGrammar({text, onClick}) {
   const replacedText = reactStringReplace(text, '\n', () => <br />);
-  return <span style={{color: 'red'}}>{replacedText}</span>
+  return (
+  <span
+    style={{color: 'red'}}
+    onClick={onClick}>
+    {replacedText}
+  </span>);
 }
 
 export default AnnotatedGrammar;

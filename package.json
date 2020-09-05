@@ -17,6 +17,7 @@
     "node-async": "0.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-drag-drawer": "^3.3.4",
     "react-fittext": "^1.0.0",
     "react-scale-text": "^1.2.2",
     "react-scripts": "3.4.3",
