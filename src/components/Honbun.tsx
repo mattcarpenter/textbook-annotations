@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import AnnotatedGrammar from './AnnotatedGrammar';
 import reactStringReplace from 'react-string-replace';
 import Drawer from 'react-drag-drawer'
+import Popover from 'react-text-selection-popover';
+import "react-awesome-button/dist/styles.css";
+
+//@ts-ignore
+import { AwesomeButton } from "react-awesome-button";
+
 import './Honbun.css';
 
 const styles = {
@@ -14,6 +20,7 @@ function Honbun({ honbun, grammar }) {
 
   const [grammarDrawerOpen, setGrammarDrawerOpen] = useState(false);
   const [grammarDrawerGrammar, setGrammarDrawerGrammar] = useState();
+  const honbunEl = useRef(null);
 
   // prepare grammar annotations
   let replacedText = reactStringReplace(honbun.text, replaceGrammarPattern, (match, i) => {
@@ -46,9 +53,13 @@ function Honbun({ honbun, grammar }) {
 
   return (
     <div>
-      <div style={styles}>
+      <div style={styles} ref={honbunEl}>
         {replacedText}
       </div>
+      <Popover selectionRef={honbunEl}>
+        <AwesomeButton type="primary" style={{height: 30}}>Look Up</AwesomeButton>&nbsp;
+        <AwesomeButton type="secondary" style={{height: 30}}>Translate</AwesomeButton>
+      </Popover>
       <Drawer
         open={grammarDrawerOpen}
         onRequestClose={() => { setGrammarDrawerOpen(false);}}
