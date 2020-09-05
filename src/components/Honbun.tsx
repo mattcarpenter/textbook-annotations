@@ -69,26 +69,28 @@ function Honbun({ honbun, grammar }) {
           setGrammarDrawerLookupTerm(window.getSelection().toString());
         }}
       >
-        <AwesomeButton
-          type="primary"
-          style={{height: 30}}
-          onPress={() => {
-            setGrammarDrawerContent('dictionary');
-            setGrammarDrawerOpen(true);
-          }}
-        >
-          Look Up
-        </AwesomeButton>&nbsp;
-        <AwesomeButton
-          type="secondary"
-          style={{height: 30}}
-          onPress={() => {
-            setGrammarDrawerContent('translate');
-            setGrammarDrawerOpen(true);
-          }}
-        >
-          Translate
-        </AwesomeButton>
+        <div style={{marginTop:20}}>
+          <AwesomeButton
+            type="primary"
+            style={{height: 30}}
+            onPress={() => {
+              setGrammarDrawerContent('dictionary');
+              setGrammarDrawerOpen(true);
+            }}
+          >
+            Look Up
+          </AwesomeButton>&nbsp;
+          <AwesomeButton
+            type="secondary"
+            style={{height: 30}}
+            onPress={() => {
+              setGrammarDrawerContent('translate');
+              setGrammarDrawerOpen(true);
+            }}
+          >
+            Translate
+          </AwesomeButton>
+        </div>
       </Popover>
       <Drawer
         open={grammarDrawerOpen}
