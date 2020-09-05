@@ -25,6 +25,7 @@ honbuns.forEach(honbun => {
     const grammarName = match[1].replace(/\n/, '');
     if (grammar[grammarName]) {
       necessaryGrammar[grammarName] = grammar[grammarName];
+      necessaryGrammar[grammarName].name = grammarName; // fix to make sure hiragana shows up in the name field, not romaji
     }
     match = grammarPattern.exec(matcherText);
   }

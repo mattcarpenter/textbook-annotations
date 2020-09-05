@@ -55,7 +55,24 @@ function Honbun({ honbun, grammar }) {
         modalElementClass="modal"
       >
         <div>
-          {JSON.stringify(grammarDrawerGrammar, null, '\t')}
+          {grammarDrawerGrammar &&
+            <div className="drawer-container">
+              <h2>{grammarDrawerGrammar.name}</h2>
+              {grammarDrawerGrammar.definition}
+              {grammarDrawerGrammar.notes &&
+                <div dangerouslySetInnerHTML={{__html: grammarDrawerGrammar.notes}}></div>
+              }
+              {grammarDrawerGrammar.usage &&
+                <div>
+                  <h3>Usage</h3>
+                  <div dangerouslySetInnerHTML={{__html: grammarDrawerGrammar.usage}}></div>
+                </div>
+              }
+              {grammarDrawerGrammar.examples &&
+              <pre>{JSON.stringify(grammarDrawerGrammar.examples, null, '\t')}</pre>
+              }
+            </div>
+          }
         </div>
       </Drawer>
     </div>
