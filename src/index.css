@@ -5,6 +5,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-user-modify: read-write-plaintext-only;
-  user-modify: read-write-plaintext-only;
 }

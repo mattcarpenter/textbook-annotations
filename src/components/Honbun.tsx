@@ -3,6 +3,7 @@ import AnnotatedGrammar from './AnnotatedGrammar';
 import reactStringReplace from 'react-string-replace';
 import Drawer from 'react-drag-drawer'
 import Popover from 'react-text-selection-popover';
+import placeRightBelow from 'react-text-selection-popover/lib/placeRightBelow'
 import "react-awesome-button/dist/styles.css";
 
 //@ts-ignore
@@ -62,6 +63,7 @@ function Honbun({ honbun, grammar }) {
       </div>
       <Popover
         selectionRef={honbunEl}
+        placementStrategy={placeRightBelow}
         onTextSelect={() => {
           // @ts-ignore
           setGrammarDrawerLookupTerm(window.getSelection().toString());
