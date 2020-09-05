@@ -1,0 +1,325 @@
+{
+	"honbuns": [
+		{
+			"name": "Chapter 5 Honbun",
+			"file": "../../data/ch5honbun.txt",
+			"text": "留学生たちのアルバイト経験\n中山 和美(東京国際留学生センター)\n　こういう職業についていると、留学生と接する(中で)[中を /中では（なかを /なかではについて）]、彼らの日本社会体験について\n(考えるようになる)[ようになる]。きょうは私の授業で話に花が咲いた、留学生たちのアルバイト(に\nまつわる)[にまつわる]話を紹介したい。\n　中国から来た男子留学生のAさんは、レストランでのアルバイト経験を話してくれ\nた。そこには先輩の日本人学生がいるが、なぜか彼はその人に叱られることが多い\nと言うのだ。分からないことはその先輩に(聞かざるをえない)[得ない（えない）]が、質問しても「自分で\n考えて」と言う(だけで)[だけで]教えてくれない。そして、それで失敗すると叱られるのだそう\nだ。お客さんが多いとき、その先輩のストレスも大きくなっているのかもしれない\nが、こんなに叱られるのは、自分が留学生の(せいか)[せいか]、それとも自分の仕事のしかたに\n問題がある(せいか)[せいか]分からない。だから、こんな職場はもうやめたいと思ったそうだ。\nしかし、そのとき、同じレストランで働いている中年の女性が「今やめたら、だめだ\nよ。ここをやめても、どこにでもそういう人はいるから」と声をかけてくれて、「あ\nあ、そうだな」と、すっと心が軽くなったのだそうだ。\n　もう一人の例を紹介したい。中国からの女子留学生のBさんの話だ。彼女はビル掃\n除のアルバイトをしているそうだ。彼女はアルバイトでいやな経験をしたことがない\nと言う。そこで働く人のうち、学生はBさん(だけで)[だけで]、あとは年配の方が多く、お茶菓\n子やお弁当を分けてくれるなど、彼女のことを自分の子どもの(ように)[ように]かわいがってく\nれるのだそうだ。\n　Aさんの場合、彼がやめたいと思った時に声をかけてくれた中年の女性がいたおか\nげで、「日本人はこうだ」という枠を超え、広い視野で自分の問題を考えられるよう\nになった。また、AさんとBさんの話を聞いて、ほかの学生もいろいろ考えただろ\nう。どんなときでも、一人で考えるのではなく、むしろいろいろな立場の人々の意見\nを聞くことが大切なの(に違いない)[に違いない（にちがいない）]。"
+		}
+	],
+	"grammar": {
+		"中を /中では（なかを /なかでは）": {
+			"name": "中を /中では (naka o /naka dewa)",
+			"definition": "in; on; in the midst of; when; while~",
+			"jlptLevel": "JLPT N2",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">中を/中では</span> 【なかを/なかでは】(naka o/naka dewa). Meaning: in; on; in the midst of; when; while~.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n2-grammar-list-flashcards/\" target=\"_blank\">N2 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n2-grammar-master-e-book/\" target=\"_blank\">JLPT N2 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "I wandered around in the store.",
+					"ja": "<p class=\"m-0 jp\">私はお店<span class=\"color\">の中を</span>うろうろしていた。</p>"
+				},
+				{
+					"en": "Since it was raining outside, she ran inside.",
+					"ja": "<p class=\"m-0 jp\">雨が降っているから彼女は部屋<span class=\"color\">の中を</span>走った。</p>"
+				},
+				{
+					"en": "They continued to walk in the rain.",
+					"ja": "<p class=\"m-0 jp\">彼らは雨<span class=\"color\">の中を</span>歩き続けました。</p>"
+				},
+				{
+					"en": "Please remove your hat inside the church.",
+					"ja": "<p class=\"m-0 jp\">教会<span class=\"color\">の中では</span>帽子を脱ぎなさい。</p>"
+				},
+				{
+					"en": "You had best not use your cellphone on the train.",
+					"ja": "<p class=\"m-0 jp\">携帯電話は電車<span class=\"color\">の中では</span>使わない方がいい。</p>"
+				},
+				{
+					"en": "Thank you very much for helping me while you are busy.",
+					"ja": "<p class=\"m-0 jp\">お忙しい<span class=\"color\">中を</span>手伝っていただき、本当にありがとうございます。</p>"
+				},
+				{
+					"en": "What's the best local beer that you recommend?",
+					"ja": "<p class=\"m-0 jp\">地元のビール<span class=\"color\">の中では</span>、どれがおいしいですか。</p>"
+				},
+				{
+					"en": "That was the best musical performance I’ve ever heard.",
+					"ja": "<p class=\"m-0 jp\">私の聞いた<span class=\"color\">中では</span>、今までで最高の演奏だった。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (casual form)</td><td rowspan=\"3\">中を<br>中では</td></tr><tr><td>Noun + の</td></tr><tr><td>Adjective</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e4%b8%ad%e3%82%92-%e4%b8%ad%e3%81%a7%e3%81%af-naka-o-naka-dewa-meaning/"
+		},
+		"ようになる": {
+			"name": "ようになる (you ni naru)",
+			"definition": "to reach the point that; to come to be that; to turn into~",
+			"jlptLevel": "JLPT N4",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">ようになる</span> (you ni naru). Meaning:   to reach the point that; to come to be that; to turn into~.</p>,<p><a target=\"_blank\" class=\"jp\" href=\"https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%82%8b-naru-meaning/\">なる (naru)</a> can be conjugated freely like a verb.</p>,<p>Sometimes よう may be excluded to just be になる.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n4-grammar-list-flashcards/\" target=\"_blank\">N4 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n4-grammar-master-e-book/\" target=\"_blank\">JLPT N4 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "When you get older, you'll understand.",
+					"ja": "<p class=\"m-0 jp\">大きくなったら分かる<span class=\"color\">ようになる</span>よ。</p>"
+				},
+				{
+					"en": "If you practice everyday, you'll eventually be able to swim.",
+					"ja": "<p class=\"m-0 jp\">毎日練習すれば、泳げる<span class=\"color\">ようになります</span>。</p>"
+				},
+				{
+					"en": "I finally learned how to ride a bicycle!",
+					"ja": "<p class=\"m-0 jp\">やっと自転車に乗れる<span class=\"color\">ようになりました</span>。</p>"
+				},
+				{
+					"en": "I studied a lot and became able to speak Japanese.",
+					"ja": "<p class=\"m-0 jp\">たくさん勉強したので、日本語を話せる<span class=\"color\">ようになりました</span>。</p>"
+				},
+				{
+					"en": "I was able to sleep well after taking some medicine.",
+					"ja": "<p class=\"m-0 jp\">薬を飲んで、よく寝られる<span class=\"color\">ようになりました</span>。</p>"
+				},
+				{
+					"en": "Please tell me when I will start being able to use that.",
+					"ja": "<p class=\"m-0 jp\">それをいつ使える<span class=\"color\">ようになる</span>のか教えてください。</p>"
+				},
+				{
+					"en": "My son has learned to get dressed all by himself.",
+					"ja": "<p class=\"m-0 jp\">息子が一人で服を着られる<span class=\"color\">ようになった</span>。</p>"
+				},
+				{
+					"en": "Before I wasn't able to drink beer, but now I've become able to drink it.",
+					"ja": "<p class=\"m-0 jp\">以前はビールを飲めなかったが、このごろ飲む<span class=\"color\">ようになりました</span>。</p>"
+				},
+				{
+					"en": "The day will come, if it hasn't already, when we won't be able to do without computers.",
+					"ja": "<p class=\"m-0 jp\">現在はともかく、将来においてはパソコンをなしでは考えられない世の中<span class=\"color\">になる</span>でしょう。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (dictionary form)</td><td rowspan=\"2\">ようになる</td></tr><tr><td>Verb (ない form)</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-you-ni-naru-meaning/"
+		},
+		"得ない（えない）": {
+			"name": "得ない (enai)",
+			"definition": "unable to; cannot; it is not possible to~",
+			"jlptLevel": "JLPT N2",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">得ない</span> 【えない】(enai). Meaning: unable to; cannot; it is not possible to~.</p>,<p>To say the opposite, use <a target=\"_blank\" class=\"jp\" href=\"https://jlptsensei.com/learn-japanese-grammar/%e5%be%97%e3%82%8b-%e3%81%88%e3%82%8b-%e3%81%86%e3%82%8b-eru-uru-meaning/\">得る「える/うる」(eru/uru)</a>.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n2-grammar-list-flashcards/\" target=\"_blank\">N2 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n2-grammar-master-e-book/\" target=\"_blank\">JLPT N2 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "Is it true that he got married? No way! It's not possible!",
+					"ja": "<p class=\"m-0 jp\">あの人が結婚したって本当！？え～！あり<span class=\"color\">得ない</span>よ！</p>"
+				},
+				{
+					"en": "You think someone as earnest as him is the culprit? That's unbelievable..",
+					"ja": "<p class=\"m-0 jp\">あの真面目な彼が犯人？そんなことはあり<span class=\"color\">得ない</span>。</p>"
+				},
+				{
+					"en": "It is unpredictable when an earthquake will occur.",
+					"ja": "<p class=\"m-0 jp\">地震がいつ来るかなんて、予測し<span class=\"color\">得ない</span>ことだ。</p>"
+				},
+				{
+					"en": "Nothing can come of nothing.",
+					"ja": "<p class=\"m-0 jp\">無から有は生じ<span class=\"color\">得ない</span>。</p>"
+				},
+				{
+					"en": "Machinery cannot completely take the place of human labor.",
+					"ja": "<p class=\"m-0 jp\">機械は完全には人力に代わり<span class=\"color\">得ない</span>。</p>"
+				},
+				{
+					"en": "These difficult tasks cannot be handled by our own power alone.",
+					"ja": "<p class=\"m-0 jp\">このような困難な仕事は、我々の力だけでは処理し<span class=\"color\">得ない</span>。</p>"
+				},
+				{
+					"en": "This time something completely unpredictable happened, but everyone please calm down.",
+					"ja": "<p class=\"m-0 jp\">今回は予測し<span class=\"color\">得ない</span>ことが起きたけど、皆さんは落ち着いてください。</p>"
+				},
+				{
+					"en": "Since it is impossible to predict when an earthquake will occur, it is better to decide in advance how to contact your family and where to evacuate.",
+					"ja": "<p class=\"m-0 jp\">地震はいつ起こるか予想し<span class=\"color\">得ない</span>から、事前に家族との連絡方法や避難場所などを決めておいた方がいいでしょう。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb <s>ます</s> (stem form)</td><td>得ない</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e5%be%97%e3%81%aa%e3%81%84-%e3%81%88%e3%81%aa%e3%81%84-enai-meaning/"
+		},
+		"だけで": {
+			"name": "だけで (dake de)",
+			"definition": "just by; just by doing",
+			"jlptLevel": "JLPT N4",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">だけで</span> (dake de).  Meaning: just by; just by doing; with only.</p>,<p><span class=\"jp color\">だけで</span> (dake de) is a combination of <a target=\"_blank\" class=\"jp\" href=\"https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0%e3%81%91-dake-meaning/\">だけ (dake)</a> and the <a target=\"_blank\" class=\"jp\" href=\"https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7-de-particle-meaning/\">で (de) particle</a>.</p>,<p>It literally means “only by”, or “just by”.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n4-grammar-list-flashcards/\" target=\"_blank\">N4 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n4-grammar-master-e-book/\" target=\"_blank\">JLPT N4 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "I get energetic from just meeting you.",
+					"ja": "<p class=\"m-0 jp\">あなたに会う<span class=\"color\">だけで</span>元気になる。</p>"
+				},
+				{
+					"en": "I'm happy to just see your picture.",
+					"ja": "<p class=\"m-0 jp\">あなたの写真を見る<span class=\"color\">だけで</span>うれしい。</p>"
+				},
+				{
+					"en": "Just by thinking of my homework I start to lose motivation.",
+					"ja": "<p class=\"m-0 jp\">宿題のことを考える<span class=\"color\">だけで</span>やる気がなくなります。</p>"
+				},
+				{
+					"en": "I want to talk together just the two of us.",
+					"ja": "<p class=\"m-0 jp\">二人<span class=\"color\">だけで</span>少し話がしたい。</p>"
+				},
+				{
+					"en": "I get worked up just thinking about her.",
+					"ja": "<p class=\"m-0 jp\">彼女のことを思う<span class=\"color\">だけで</span>ドキドキする。</p>"
+				},
+				{
+					"en": "You cannot live by love alone.",
+					"ja": "<p class=\"m-0 jp\">愛情<span class=\"color\">だけで</span>は生きてはいけない。</p>"
+				},
+				{
+					"en": "Just one glance told me all I need to know.",
+					"ja": "<p class=\"m-0 jp\">一目見た<span class=\"color\">だけで</span>、俺に必要なことはすべてわかった。</p>"
+				},
+				{
+					"en": "I wasn't satisfied just by a stable job and income.",
+					"ja": "<p class=\"m-0 jp\">安定した収入を得る<span class=\"color\">だけで</span>は満足できなかった。</p>"
+				},
+				{
+					"en": "I worry about my daughter's life in Japan when hearing about how hard it is as a over see student.",
+					"ja": "<p class=\"m-0 jp\">留学生の生活の苦労を聞く<span class=\"color\">だけで</span>、日本に留学している娘のことを心配する。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (casual)</td><td rowspan=\"2\">だけで</td></tr><tr><td>Noun</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0%e3%81%91%e3%81%a7-dake-de-meaning/"
+		},
+		"せいか": {
+			"name": "せいか (sei ka)",
+			"definition": "perhaps because~",
+			"jlptLevel": "JLPT N2",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">せいか</span> (sei ka). Meaning: perhaps because~.</p>,<p>This can be used for both positive or negative outcomes.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n2-grammar-list-flashcards/\" target=\"_blank\">N2 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n2-grammar-master-e-book/\" target=\"_blank\">JLPT N2 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "I got sick perhaps because I worked too much",
+					"ja": "<p class=\"m-0 jp\">たくさん仕事をした<span class=\"color\">せいか</span>、病気になってしまった。</p>"
+				},
+				{
+					"en": "My headache has gone away, likely from the medicine I took.",
+					"ja": "<p class=\"m-0 jp\">薬を飲んだ<span class=\"color\">せいか</span>頭痛が治った。</p>"
+				},
+				{
+					"en": "I'm very sleepy, perhaps because of the nice weather today.",
+					"ja": "<p class=\"m-0 jp\">今日はお天気がよい<span class=\"color\">せいか</span>、とても眠たいです。</p>"
+				},
+				{
+					"en": "I forget many things recently, probably because I am aging.",
+					"ja": "<p class=\"m-0 jp\">年<span class=\"color\">のせいか</span>、最近は色んなことをよく忘れた。</p>"
+				},
+				{
+					"en": "I felt dizzy, probably because of my lack of sleep.",
+					"ja": "<p class=\"m-0 jp\">睡眠不足<span class=\"color\">のせいか</span>、目まいがした。</p>"
+				},
+				{
+					"en": "My stomach hurts, probably because I have a lot of stress.",
+					"ja": "<p class=\"m-0 jp\">ストレスがいっぱいある<span class=\"color\">せいか</span>、胃が痛いです。</p>"
+				},
+				{
+					"en": "I became sleepy, probably because of the medicine I took this morning.",
+					"ja": "<p class=\"m-0 jp\">今朝は薬を飲んだ<span class=\"color\">せいか</span>、眠たくなった。</p>"
+				},
+				{
+					"en": "I don't have an appetite now, probably because of the hot weather.",
+					"ja": "<p class=\"m-0 jp\">暑い<span class=\"color\">せいか</span>、食欲がないです。</p>"
+				},
+				{
+					"en": "I feel sick today, probably because I drink a lot of sake last night.",
+					"ja": "<p class=\"m-0 jp\">昨夜お酒をたくさん飲んだ<span class=\"color\">せいか</span>、今日は気分が悪い。</p>"
+				},
+				{
+					"en": "Perhaps of the Japanese test next week, I can't seem to settle down.",
+					"ja": "<p class=\"m-0 jp\">来週、日本語のテストがある<span class=\"color\">せいか</span>、何だか落ち着かない。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (casual)</td><td rowspan=\"4\">せいか</td></tr><tr><td>Noun + の</td></tr><tr><td>な-adjective + な/だった</td></tr><tr><td>い-adjective</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9b%e3%81%84%e3%81%8b-sei-ka-meaning/"
+		},
+		"ように": {
+			"name": "ように (you ni)",
+			"definition": "in order to, so that~",
+			"jlptLevel": "JLPT N3",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">ように</span> (you ni). Meaning: in order to, so that~.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n3-grammar-list-flashcards/\" target=\"_blank\">N3 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n3-grammar-master-e-book/\" target=\"_blank\">JLPT N3 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "I left early so I would not be late for the bus.",
+					"ja": "<p class=\"m-0 jp\">バスに乗り遅れない<span class=\"color\">ように</span>早く出ました。</p>"
+				},
+				{
+					"en": "I will take some notes so as to not forget what the teacher said.",
+					"ja": "<p class=\"m-0 jp\">先生の話を忘れない<span class=\"color\">ように</span>、メモしておきます。</p>"
+				},
+				{
+					"en": "I made some flashcards to help me be able to memorize vocabulary.",
+					"ja": "<p class=\"m-0 jp\">単語が覚えられる<span class=\"color\">ように</span>、フラッシュカードを作りました。</p>"
+				},
+				{
+					"en": "Speak with a louder voice so everyone can hear.",
+					"ja": "<p class=\"m-0 jp\">皆さんに聞こえる<span class=\"color\">ように</span>もっと大きな声で話してください。</p>"
+				},
+				{
+					"en": "I'm studying my absolute hardest so that I can be accepted to university.",
+					"ja": "<p class=\"m-0 jp\">大学に合格出来る<span class=\"color\">ように</span>一生懸命勉強しています。</p>"
+				},
+				{
+					"en": "I'm studying kanji so that I can read Japanese newspapers.",
+					"ja": "<p class=\"m-0 jp\">私は日本の新聞を読める<span class=\"color\">ように</span>、漢字を勉強しています。</p>"
+				},
+				{
+					"en": "She set a lot of alarms so that she doesn't sleep in.",
+					"ja": "<p class=\"m-0 jp\">彼女は寝坊しない<span class=\"color\">ように</span>、アラームをたくさんかけました。</p>"
+				},
+				{
+					"en": "I downloaded a dictionary application so that I can look up vocabulary words at any time.",
+					"ja": "<p class=\"m-0 jp\">いつでも単語が調べられる<span class=\"color\">ように</span>、スマホに辞書のアプリをダウンロードしてあります。</p>"
+				},
+				{
+					"en": "She turned off her cellphone so it wouldn’t bother her while studying.",
+					"ja": "<p class=\"m-0 jp\">彼女は勉強中に邪魔されない<span class=\"color\">ように</span>、携帯電話の電源を切った。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (dictionary form)</td><td rowspan=\"2\">ように</td></tr><tr><td>Verb (ない form)</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab-you-ni-meaning-in-order-to/"
+		},
+		"に違いない（にちがいない）": {
+			"name": "に違いない (ni chigai nai)",
+			"definition": "I’m sure/ certain; no doubt that~",
+			"jlptLevel": "JLPT N3",
+			"notes": "<div><p>Learn Japanese grammar: <span class=\"jp color\">に違いない</span> 【にちがいない】(ni chigai nai). Meaning: I’m sure/ certain; no doubt that~.</p>,<p class=\"mt-2 mb-0\">Click the image to download the flashcard. <br>Download all <a href=\"/downloads/jlpt-n3-grammar-list-flashcards/\" target=\"_blank\">N3 grammar flashcards</a>.</p>,<p class=\"mt-2 mb-0\">Download our complete <br><a href=\"/downloads/jlpt-n3-grammar-master-e-book/\" target=\"_blank\">JLPT N3 Grammar Master E-book</a>.</p></div>",
+			"examples": [
+				{
+					"en": "I bet that hurts.",
+					"ja": "<p class=\"m-0 jp\">それは痛い<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "I'm sure he's still sleeping.",
+					"ja": "<p class=\"m-0 jp\">彼はまだ寝ている<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "Tom has 7 cars, so there's no doubt he's rich.",
+					"ja": "<p class=\"m-0 jp\">トムさんは車を７台も持っているから、お金持ち<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "That restuarant is always full of people so it's definitely a popular place.",
+					"ja": "<p class=\"m-0 jp\">あのレストランはいつも人が多いから、人気がある<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "Lisa has been going to cooking school for 3 years, so her food is surely delicious.",
+					"ja": "<p class=\"m-0 jp\">リサさんは３年も料理教室に通っているから、彼女の料理はきっと美味しい<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "Chinese people know a lot of kanji (chinese characters), so they can surely quickly learn Japanese characters as well.",
+					"ja": "<p class=\"m-0 jp\">中国人は漢字をたくさん知っているから、きっと日本の漢字もすぐに覚えられる<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "Kim finally passed the JLPT N1 on his 5th try and is undoubtedly the happiest person around.",
+					"ja": "<p class=\"m-0 jp\">キムさんは５回目でようやくJLPT N1に合格できたので、誰よりも嬉しかった<span class=\"color\">に違いない</span>。</p>"
+				},
+				{
+					"en": "She has been living in Japan for 10 years so she surely speaks Japanese well.",
+					"ja": "<p class=\"m-0 jp\">彼女は日本に１０年も住んでいたから、日本語が上手に話せる<span class=\"color\">に違いない</span>。</p>"
+				}
+			],
+			"usage": "<tbody><tr><td>Verb (casual form)</td><td rowspan=\"4\">に違いない</td></tr><tr><td>Noun</td></tr><tr><td>な-adjective</td></tr><tr><td>い-adjective</td></tr></tbody>",
+			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e9%81%95%e3%81%84%e3%81%aa%e3%81%84-ni-chigai-nai-meaning/"
+		}
+	}
+}
