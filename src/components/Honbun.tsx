@@ -91,7 +91,7 @@ function Honbun({ honbun, grammar }) {
               setGrammarDrawerOpen(true);
               axios
                 .post('https://eps50mnw3l.execute-api.ap-northeast-1.amazonaws.com/default/translate', {
-                  phrase: grammarDrawerLookupTerm
+                  phrase: grammarDrawerLookupTerm.replace(/\n/g,'')
                 })
                 .then(response => {
                   setSelectionTranslation(response.data.result);
