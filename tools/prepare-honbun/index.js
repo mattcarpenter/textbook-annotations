@@ -9,8 +9,12 @@ const necessaryGrammar = {};
 
 const honbuns = [
   {
-    name: 'Chapter 5 Honbun',
+    name: 'Ch5 Step 1',
     file: '../../data/ch5honbun.txt'
+  },
+  {
+    name: 'Ch5 Step 5',
+    file: '../../data/ch5step5.txt'
   }
 ];
 
