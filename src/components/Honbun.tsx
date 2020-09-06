@@ -5,6 +5,7 @@ import Drawer from 'react-drag-drawer'
 import Popover from 'react-text-selection-popover';
 import placeRightBelow from 'react-text-selection-popover/lib/placeRightBelow'
 import "react-awesome-button/dist/styles.css";
+import axios from 'axios';
 
 //@ts-ignore
 import { AwesomeButton } from "react-awesome-button";
@@ -23,6 +24,7 @@ function Honbun({ honbun, grammar }) {
   const [grammarDrawerGrammar, setGrammarDrawerGrammar] = useState();
   const [grammarDrawerContent, setGrammarDrawerContent] = useState();
   const [grammarDrawerLookupTerm, setGrammarDrawerLookupTerm] = useState();
+  const [selectionTranslation, setSelectionTranslation] = useState('');
 
   const honbunEl = useRef(null);
 
@@ -84,8 +86,16 @@ function Honbun({ honbun, grammar }) {
             type="secondary"
             style={{height: 30}}
             onPress={() => {
+              setSelectionTranslation('');
               setGrammarDrawerContent('translate');
               setGrammarDrawerOpen(true);
+              axios
+                .post('https://eps50mnw3l.execute-api.ap-northeast-1.amazonaws.com/default/translate', {
+                  phrase: grammarDrawerLookupTerm
+                })
+                .then(response => {
+                  setSelectionTranslation(response.data.result);
+                });
             }}
           >
             Translate
@@ -125,7 +135,7 @@ function Honbun({ honbun, grammar }) {
           {grammarDrawerLookupTerm && grammarDrawerContent === 'translate' &&
             <div>
               <h2>Translate</h2>
-              <iframe style={{width: '100%', maxHeight: '50vh', height: 500}} src={`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${grammarDrawerLookupTerm}`}></iframe>
+              {selectionTranslation}
             </div>
           }
         </div>
