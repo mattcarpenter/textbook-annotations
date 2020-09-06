@@ -15,6 +15,10 @@ const honbuns = [
   {
     name: 'Ch5 Step 5',
     file: '../../data/ch5step5.txt'
+  },
+  {
+    name: 'Ch6 Step 1',
+    file: '../../data/ch6step1.txt'
   }
 ];
 
