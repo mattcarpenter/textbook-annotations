@@ -1,4 +1,9 @@
 const fs = require('fs');
+const Kuroshiro = require('kuroshiro');
+const kuroshiro = new Kuroshiro();
+const Analyzer = require('kuroshiro-analyzer-kuromoji');
+const analyzer = new Analyzer();
+
 const baseGrammar = JSON.parse(fs.readFileSync('../../data/grammar.json').toString());
 const extraGrammar = JSON.parse(fs.readFileSync('../../data/extra.json').toString());
 const grammar = Object.assign(baseGrammar, extraGrammar);
@@ -19,27 +24,35 @@ const honbuns = [
   {
     name: 'Ch6 Step 1',
     file: '../../data/ch6step1.txt'
+  },
+  {
+    name: '情報２',
+    file: '../../data/jouhou2.txt'
   }
 ];
 
-honbuns.forEach(honbun => {
-  // load text
-  const text = fs.readFileSync(honbun.file).toString();
-  const matcherText = text;
-  honbun.text = text;
-  // extract grammar names
-  let match = grammarPattern.exec(matcherText);
-  while (match !== null) {
-    const grammarName = match[1].replace(/\n/, '');
-    if (grammar[grammarName]) {
-      necessaryGrammar[grammarName] = grammar[grammarName];
-      necessaryGrammar[grammarName].name = grammarName; // fix to make sure hiragana shows up in the name field, not romaji
-    }
-    match = grammarPattern.exec(matcherText);
-  }
-});
+kuroshiro.init(analyzer).then(() => {
 
-console.log(JSON.stringify({
-  honbuns: honbuns,
-  grammar: necessaryGrammar
-}, null, '\t'));
+  honbuns.forEach(honbun => {
+    // load tex
+    const text = fs.readFileSync(honbun.file).toString();
+    const matcherText = text;
+    honbun.text = text;
+    // extract grammar names
+    let match = grammarPattern.exec(matcherText);
+    while (match !== null) {
+      const grammarName = match[1].replace(/\n/, '');
+      if (grammar[grammarName]) {
+        necessaryGrammar[grammarName] = grammar[grammarName];
+        necessaryGrammar[grammarName].name = grammarName; // fix to make sure hiragana shows up in the name field, not romaji
+      }
+      match = grammarPattern.exec(matcherText);
+    }
+  });
+
+  console.log(JSON.stringify({
+    honbuns: honbuns,
+    grammar: necessaryGrammar
+  }, null, '\t'));
+
+});
