@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react';
 import AnnotatedGrammar from './AnnotatedGrammar';
+import AnnotatedVocab from './AnnotatedVocab';
 import reactStringReplace from 'react-string-replace';
-import Drawer from 'react-drag-drawer'
+import LineTo from 'react-lineto';
+import Drawer from 'react-drag-drawer';
 import Popover from 'react-text-selection-popover';
 import placeRightBelow from 'react-text-selection-popover/lib/placeRightBelow'
 import "react-awesome-button/dist/styles.css";
@@ -18,7 +20,7 @@ const styles = {
 
 const replaceGrammarPattern = /(\([\s\S][^()[\]]*?\)\[.+\])/g;
 
-function Honbun({ honbun, grammar }) {
+function Honbun({ honbun, grammar, vocab }) {
 
   const [grammarDrawerOpen, setGrammarDrawerOpen] = useState(false);
   const [grammarDrawerGrammar, setGrammarDrawerGrammar] = useState();
@@ -27,6 +29,7 @@ function Honbun({ honbun, grammar }) {
   const [selectionTranslation, setSelectionTranslation] = useState('');
 
   const honbunEl = useRef(null);
+  const definitionElements: JSX.Element[] = [];
 
   // prepare grammar annotations
   let replacedText = reactStringReplace(honbun.text, replaceGrammarPattern, (match, i) => {
@@ -58,10 +61,50 @@ function Honbun({ honbun, grammar }) {
     <br />
   );
 
+  // prepare vocab annotations
+  let annotationId = 0;
+  let vocabId = 0;
+  vocab.forEach(vocabTerm => {
+    vocabId++;
+    vocabTerm.annotationIds = [];
+    [vocabTerm.kanji, ...vocabTerm.otherForms]
+      .filter(t => t !== '')
+      .forEach(t => {
+        replacedText = reactStringReplace(replacedText, t, (match, i) => {
+          annotationId++;
+          vocabTerm.annotationIds.push(annotationId);
+          return (
+            <AnnotatedVocab
+              className={`vocab-${annotationId}`}
+              text={match}
+              reading={vocabTerm.hiragana}
+              definition={vocabTerm.definition}
+              onClick={() => {}}
+            />
+          );
+        });
+    });
+
+    // any matches?
+    if (vocabTerm.annotationIds.length) {
+      // Create definition element
+      definitionElements.push(
+        <div>
+          <div className={`definition-${vocabId}`}>
+            {vocabTerm.definition}
+          </div>
+        </div>
+      );
+    }
+  });
+
   return (
     <div>
       <div style={styles} ref={honbunEl}>
         {replacedText}
+      </div>
+      <div>
+        {definitionElements}
       </div>
       <Popover
         selectionRef={honbunEl}

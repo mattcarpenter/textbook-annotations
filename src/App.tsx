@@ -18,7 +18,7 @@ function App() {
         {honbunData.honbuns.map(honbun => {
           return (
             <TabPanel>
-              <Honbun honbun={honbun} grammar={honbunData.grammar}/>
+              <Honbun honbun={honbun} grammar={honbunData.grammar} vocab={honbunData.vocab}/>
             </TabPanel>
           );
         })}

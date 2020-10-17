@@ -1,4 +1,5 @@
 const fs = require('fs');
+const parse = require('csv-parse');
 const Kuroshiro = require('kuroshiro');
 const kuroshiro = new Kuroshiro();
 const Analyzer = require('kuroshiro-analyzer-kuromoji');
@@ -7,8 +8,11 @@ const analyzer = new Analyzer();
 const baseGrammar = JSON.parse(fs.readFileSync('../../data/grammar.json').toString());
 const extraGrammar = JSON.parse(fs.readFileSync('../../data/extra.json').toString());
 const grammar = Object.assign(baseGrammar, extraGrammar);
-//const grammarPattern = /\(.+\)\[(.+)\]/g;
 const grammarPattern = /\([\s\S][^()[\]]*?\)\[(.+)\]/g;
+
+const csvParser = parse({delimiter: ','});
+const csvInput = fs.createReadStream('../../data/vocab.csv');
+const vocabRecords = [];
 
 const necessaryGrammar = {};
 
@@ -27,14 +31,37 @@ const honbuns = [
   },
   {
     name: '情報２',
-    file: '../../data/jouhou2.txt'
+    file: '../../data/jouhou2.txt',
+    vocabOnly: true
   }
 ];
 
-kuroshiro.init(analyzer).then(() => {
+// Parse vocab
+csvParser.on('readable', function(){
+  let record;
+  while (record = csvParser.read()) {
+    vocabRecords.push({
+      kanji: record[0],
+      hiragana: record[1],
+      definition: record[3],
+      otherForms: record[4].split(/[,、]/g).filter(t => t !== '')
+    });
+  }
+});
 
+csvParser.on('error', function(err){
+  console.error(err.message)
+});
+
+csvParser.on('end', function() {
+  kuroshiro.init(analyzer).then(prepareHonbuns);
+});
+
+csvInput.pipe(csvParser);
+
+function prepareHonbuns() {
   honbuns.forEach(honbun => {
-    // load tex
+    // load text
     const text = fs.readFileSync(honbun.file).toString();
     const matcherText = text;
     honbun.text = text;
@@ -52,7 +79,7 @@ kuroshiro.init(analyzer).then(() => {
 
   console.log(JSON.stringify({
     honbuns: honbuns,
-    grammar: necessaryGrammar
+    grammar: necessaryGrammar,
+    vocab: vocabRecords
   }, null, '\t'));
-
-});
+}

@@ -18,6 +18,7 @@
 		{
 			"name": "情報２",
 			"file": "../../data/jouhou2.txt",
+			"vocabOnly": true,
 			"text": "　父は、寺子屋式マンツーマンでわたしを教育してくれました。自由人で「何も\nかもみんなと同じようにする学校教育は嫌いだ」という考えでしたから、わたし\nは小学校までで、中学校は行っていません。\n　「夕焼けはなぜ赤い」。小学校三年のとき、理科の試験でそんな問題が出たこと\nがあります。父に聞いていた通り「空が恥ずかしがってるから」と書いたら、バ\nツがついて返ってきました。「どうしてうそを教えたの」と聞くと、父は急に不機\n嫌になって「どちらもうそじゃない。考えて出す答えはいくつもあっていい。\n君、○×で決めてしまうのが人生じゃないんですぞ」と言いました。\n　戦争中、学校に出す日記で「銃 後(男の人が戦地に行った後)を守る、うれし\nい汗」と書いたら、父が言いました。「何だ、この大うその日記は」。「学校では\n都合が悪いんだもん」と言うと「君、それは処世術 だね。じゃあ、日記を二冊\nつけなさい。一冊は 正直に書く。一冊は提出用。後で読み比べてごらん、人\n間ってどのくらいうそをつけるかわかる」。それで、日記を二種類つけることにな\nりました。\n　父と学んでいて楽しかったのは国語でした。源氏物語をあれこれ考えながら話\nしことばに訳したり、旅行に行って父のあぐらの上に座って、床の間のかけ軸を\n思いつきで読んだり。\n　理数科がダメで「なんで九九がわからんか」と言われたことがあります。でも\n「ダメなところばかり考えると、悲劇のヒロインになる。悲劇は君には似合いませ\nんぞ。好きなものを一生懸命やればいい。好きなものは信じられないくらいや\nれる。掛け算が苦手だって、足し算をいくつもいくつも重ねれば答えが出る」と\n言ったのを覚えています。\n　そんな寺子屋も、十七、八歳で終わりました。父は皮肉をこめて言いました。\n「どうも、近ごろ、君にはほかの教師がいるらしいな。音楽は、神津善行とかい\nう青年が現れてから、ほかの人の言うことは耳に入らない。寺子屋は卒業して、\n社会の風に吹かれて慣れなさい」。それでも、孫に対して「幼稚園、休んでしまえ」\nと連れ出して車で東京中の煙突を見せて回っていました。\n　父に教わったことの中で一番大切だったのは、夕焼けの問題のときの「答えは\nひとつじゃない、それが人生」という発想だったかもしれません。今日はダメだっ\nたけど、あすはちょっと違うシナリオを書いてみようかな、という余裕が持てま\nした。それがなかったら、役者の仕事と、妻や母であることとの両立も難しかっ\nたと思います。"
 		}
 	],
@@ -572,5 +573,775 @@
 			"usage": "<tbody><tr><td>Verb (た form)</td><td>ばかり</td></tr></tbody>",
 			"url": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%b0%e3%81%8b%e3%82%8a-ta-bakari-meaning/"
 		}
-	}
+	},
+	"vocab": [
+		{
+			"kanji": "宗教",
+			"hiragana": "しゅうきょう",
+			"definition": "Religion",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜に対する",
+			"hiragana": "〜にたいする",
+			"definition": "N2 in contrast with N1",
+			"otherForms": []
+		},
+		{
+			"kanji": "考え方",
+			"hiragana": "かんがえかた",
+			"definition": "Way of thinking",
+			"otherForms": []
+		},
+		{
+			"kanji": "過ぎる",
+			"hiragana": "すぎる",
+			"definition": "To pass, elapse",
+			"otherForms": []
+		},
+		{
+			"kanji": "違い",
+			"hiragana": "ちがい",
+			"definition": "Difference",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜ゆえ",
+			"hiragana": "〜ゆえ",
+			"definition": "N2 because of N1",
+			"otherForms": [
+				"Like だから but way more formal"
+			]
+		},
+		{
+			"kanji": "発見",
+			"hiragana": "はっけん",
+			"definition": "Discovery",
+			"otherForms": []
+		},
+		{
+			"kanji": "娘さん",
+			"hiragana": "むすめさん",
+			"definition": "Someone's daughter",
+			"otherForms": []
+		},
+		{
+			"kanji": "結婚式",
+			"hiragana": "けっこんしき",
+			"definition": "Wedding ceremony",
+			"otherForms": []
+		},
+		{
+			"kanji": "教会",
+			"hiragana": "きょうかい",
+			"definition": "Christian church",
+			"otherForms": []
+		},
+		{
+			"kanji": "抱っこ",
+			"hiragana": "だっこ",
+			"definition": "Holding a baby",
+			"otherForms": [
+				"抱っこする"
+			]
+		},
+		{
+			"kanji": "神社",
+			"hiragana": "じんじゃ",
+			"definition": "Shinto shrine",
+			"otherForms": []
+		},
+		{
+			"kanji": "スーツ姿",
+			"hiragana": "スーツすがた",
+			"definition": "Someone in a suit",
+			"otherForms": []
+		},
+		{
+			"kanji": "主人",
+			"hiragana": "しゅじん",
+			"definition": "Husband; master of house",
+			"otherForms": []
+		},
+		{
+			"kanji": "お宮参り",
+			"hiragana": "おみやまいり",
+			"definition": "The custom of taking a newborn infant to the local Shinto shrine",
+			"otherForms": []
+		},
+		{
+			"kanji": "習慣",
+			"hiragana": "しゅうかん",
+			"definition": "Custom, habit, practice",
+			"otherForms": []
+		},
+		{
+			"kanji": "健やか",
+			"hiragana": "すこやか",
+			"definition": "Wholesome, healthy",
+			"otherForms": [
+				"なーAdjective"
+			]
+		},
+		{
+			"kanji": "願う",
+			"hiragana": "ねがう",
+			"definition": "To wish, hope, desire",
+			"otherForms": []
+		},
+		{
+			"kanji": "初詣",
+			"hiragana": "はつもうで",
+			"definition": "Paying a visit to a shrine or temple on New Year's Day",
+			"otherForms": []
+		},
+		{
+			"kanji": "仏壇",
+			"hiragana": "ぶつだん",
+			"definition": "Household Buddhist altar",
+			"otherForms": []
+		},
+		{
+			"kanji": "仏式",
+			"hiragana": "ぶっしき",
+			"definition": "Buddhist style",
+			"otherForms": []
+		},
+		{
+			"kanji": "つまり",
+			"hiragana": "つまり",
+			"definition": "In short, in other words",
+			"otherForms": []
+		},
+		{
+			"kanji": "神道",
+			"hiragana": "しんとう",
+			"definition": "Shintoisim",
+			"otherForms": []
+		},
+		{
+			"kanji": "葬式",
+			"hiragana": "そうしき",
+			"definition": "Funeral",
+			"otherForms": []
+		},
+		{
+			"kanji": "仏教",
+			"hiragana": "ぶっきょう",
+			"definition": "Buddhism",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜わけだ",
+			"hiragana": "〜わけだ",
+			"definition": "It means that S; no wonder S",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜からすると",
+			"hiragana": "〜からすると",
+			"definition": "Judging from N",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜にとって",
+			"hiragana": "〜にとって",
+			"definition": "For someone; to someone",
+			"otherForms": []
+		},
+		{
+			"kanji": "むしろ",
+			"hiragana": "むしろ",
+			"definition": "Rather",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜といったところだ",
+			"hiragana": "〜といったところだ",
+			"definition": "What can be generalized as N",
+			"otherForms": []
+		},
+		{
+			"kanji": "ーきょうと",
+			"hiragana": "ーきょうと",
+			"definition": "Believer in ー",
+			"otherForms": []
+		},
+		{
+			"kanji": "なかなか〜ない",
+			"hiragana": "なかなか〜ない",
+			"definition": "Not 〜 Easily",
+			"otherForms": []
+		},
+		{
+			"kanji": "理解",
+			"hiragana": "りかい",
+			"definition": "Understanding（To understand)",
+			"otherForms": [
+				"理解する"
+			]
+		},
+		{
+			"kanji": "行動",
+			"hiragana": "こうどう",
+			"definition": "Behavior, act, action, deed, (to act, behave)",
+			"otherForms": [
+				"行動する"
+			]
+		},
+		{
+			"kanji": "矛盾",
+			"hiragana": "むじゅん",
+			"definition": "Contradiction, Paradox",
+			"otherForms": [
+				"矛盾する"
+			]
+		},
+		{
+			"kanji": "〜ような気がする",
+			"hiragana": "〜ようなきがする",
+			"definition": "I feel as S, I have a hunch that S",
+			"otherForms": []
+		},
+		{
+			"kanji": "不自然",
+			"hiragana": "ふしぜん",
+			"definition": "Unnatural, artificial",
+			"otherForms": [
+				"なーAdjective"
+			]
+		},
+		{
+			"kanji": "宗教的",
+			"hiragana": "しゅうきょうてき",
+			"definition": "Religious",
+			"otherForms": []
+		},
+		{
+			"kanji": "行事",
+			"hiragana": "ぎょうじ",
+			"definition": "Event, function",
+			"otherForms": []
+		},
+		{
+			"kanji": "として",
+			"hiragana": "として",
+			"definition": "In the capacity of N, with the qualification of N",
+			"otherForms": []
+		},
+		{
+			"kanji": "ぜひ",
+			"hiragana": "ぜひ",
+			"definition": "By all means, at all cost",
+			"otherForms": []
+		},
+		{
+			"kanji": "反応",
+			"hiragana": "はんのう",
+			"definition": "Reaction (to react)",
+			"otherForms": [
+				"反応する"
+			]
+		},
+		{
+			"kanji": "気分",
+			"hiragana": "きぶん",
+			"definition": "Feeling",
+			"otherForms": []
+		},
+		{
+			"kanji": "本音",
+			"hiragana": "ほんね",
+			"definition": "One's real intention; one's real underlying motive",
+			"otherForms": []
+		},
+		{
+			"kanji": "仲良く",
+			"hiragana": "なかよく",
+			"definition": "Being on good terms with",
+			"otherForms": []
+		},
+		{
+			"kanji": "仲良くならなくちゃ",
+			"hiragana": "よくなかならなくちゃ",
+			"definition": "Have to get along",
+			"otherForms": []
+		},
+		{
+			"kanji": "たびに",
+			"hiragana": "たびに",
+			"definition": "Every time one does something, something else happens without fail",
+			"otherForms": []
+		},
+		{
+			"kanji": "話題",
+			"hiragana": "わだい",
+			"definition": "Topic, subject",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "のは〜だ",
+			"definition": "This pattern corresponds to 'it is ~ that ...' In English. It is Tanakasan that I met in Tokyo. 私が東京で会ったのは田中さんです。",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Adj そうにしている",
+			"definition": "This pattern describes the condition of something or some animate thing, reflecting his/her/its inner feelings or state of mind. that 'child acts as if he is happy' あの子もは うれしそうにしている。",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vーvolitional　とする",
+			"definition": "Expresses that someone is about to do something or trying to do something. 食べようとした",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vところだ",
+			"definition": "Expresses an aspect of someone's movement",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S(Plain) はずがない",
+			"definition": "Expresses the speaker's conjecture based on some assumption. It should not be the case that S; It is hardly possible that S",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "NというのはSものだ",
+			"definition": "As for N/speaking of N、It should inded be S.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vてくる",
+			"definition": "Meaning of movement, or some change or transition. IN ADDITION, it expresses a change which started at some point in the past and has continued until the reference point.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nに関わるN2",
+			"definition": "N1 which has to do with N2",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vーないといけない",
+			"definition": "One must do ~ (lit. If you do not do something, it won't do)",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vーていく",
+			"definition": "The basic meaning is movement. The speaker uses this verb to express changes as if they are moving away from the speaker.　The number of children will continue to decrease.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vーたつもりだ",
+			"definition": "I am convinced I did something.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "N1とは(S-plain/N2)といういみだ",
+			"definition": "留学とは「外国の学校で勉強する」という意味です。",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S plain/present ようにする",
+			"definition": "Make an effort of doing something. Make sure that S.See to it that S.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V plain だけで（は）なく",
+			"definition": "Not just V, but also ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V (stem) はしない",
+			"definition": "This expresses the speaker's firm will not to do something. やめはしない",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "N1にたいしてN2・N1に対するN2",
+			"definition": "For or in regard to。Towards. Versus",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S (plain) わけだ",
+			"definition": "No wonder S.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nからすると",
+			"definition": "Judging from N, on the basis of N",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nにとって",
+			"definition": "For someone, to someome. For me, blah blah blah. For dogs, the important thing is to sleep well and eat well.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nといったところだ",
+			"definition": "What can be put as N, what can be generalized as N",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S(plain) ような気がする",
+			"definition": "I feel as if S. I have a hunch that S.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nとして",
+			"definition": "In the capacity of N",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S(plain past) とする",
+			"definition": "Suppose S were the case",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S1(predicate たらーform）、S2(plain past)だろう",
+			"definition": "If S1 had been the case, S2 would have happened.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Vる／Nの たびに",
+			"definition": "Every time one does something, something happens without fail",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "Nひとつとって",
+			"definition": "Take N for example",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V-たとたん（に）",
+			"definition": "As soon as having done V, no sooner than Vーing",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V1ーる中でV2",
+			"definition": "While ~, during the course of ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "N1にまつわるN2",
+			"definition": "N2 related to N1",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V-ざるを得ない",
+			"definition": "Despite your wish not to, you have to do ~. Cannot help but to do ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S (plain) ／Nの せいか",
+			"definition": "Maybe because of S",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S (plain) ／Nの ようにV",
+			"definition": "Just like ~, as if it were ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S (plain) ／ N にちがいない",
+			"definition": "It must be the case that ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V1 ては V2",
+			"definition": "Someone does the sequence of VN and V2 repeatedly",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "S(plain non past) ほど のN／〜",
+			"definition": "N which to is the extent of S, To the extent of S",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V-て初めて",
+			"definition": "Not until V, only after V",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V-るとS(past)",
+			"definition": "When one does somethig, something else happens as a consequence.",
+			"otherForms": []
+		},
+		{
+			"kanji": "",
+			"hiragana": "V-たばかりだ",
+			"definition": "Have just done ~, just did ~",
+			"otherForms": []
+		},
+		{
+			"kanji": "寺子屋",
+			"hiragana": "てらこや",
+			"definition": "Edo period temple elementary school",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜式",
+			"hiragana": "しき",
+			"definition": "Ceremony",
+			"otherForms": []
+		},
+		{
+			"kanji": "マンツーマン",
+			"hiragana": "マンツーマン",
+			"definition": "Man to man",
+			"otherForms": []
+		},
+		{
+			"kanji": "自由人",
+			"hiragana": "じゆうじん",
+			"definition": "Free person; free spirit",
+			"otherForms": []
+		},
+		{
+			"kanji": "夕焼け",
+			"hiragana": "ゆうやけ",
+			"definition": "Evening glow; red sunset",
+			"otherForms": []
+		},
+		{
+			"kanji": "不機嫌",
+			"hiragana": "ふきげん",
+			"definition": "Pout; displeasure; ill humor",
+			"otherForms": []
+		},
+		{
+			"kanji": "処世術",
+			"hiragana": "しょせいじゅつ",
+			"definition": "Worldly wisdom; Secret of success in life",
+			"otherForms": []
+		},
+		{
+			"kanji": "正直",
+			"hiragana": "しょうじき",
+			"definition": "Honest, frank, straightforward。なーAdj",
+			"otherForms": []
+		},
+		{
+			"kanji": "提出",
+			"hiragana": "ていしゅつ",
+			"definition": "Production of documents",
+			"otherForms": []
+		},
+		{
+			"kanji": "比べる",
+			"hiragana": "くらべる",
+			"definition": "To compare; to make a comparison",
+			"otherForms": []
+		},
+		{
+			"kanji": "〜て ごらん",
+			"hiragana": "〜て ごらん",
+			"definition": "Please try to; please look",
+			"otherForms": []
+		},
+		{
+			"kanji": "うそ",
+			"hiragana": "うそ ",
+			"definition": "Lie. 〜をつく",
+			"otherForms": []
+		},
+		{
+			"kanji": "源氏物語",
+			"hiragana": "げんじものがたり",
+			"definition": "The tale of Genji",
+			"otherForms": []
+		},
+		{
+			"kanji": "想像",
+			"hiragana": "そうぞう",
+			"definition": "Imagination, guess。する",
+			"otherForms": []
+		},
+		{
+			"kanji": "あぐら",
+			"hiragana": "あぐら",
+			"definition": "Sitting cross-legged Indian style",
+			"otherForms": []
+		},
+		{
+			"kanji": "床の間",
+			"hiragana": "とこのま",
+			"definition": "Aclove for flowers",
+			"otherForms": []
+		},
+		{
+			"kanji": "かけ軸",
+			"hiragana": "かけじく",
+			"definition": "Hanging scroll",
+			"otherForms": []
+		},
+		{
+			"kanji": "思いつき",
+			"hiragana": "おもいつき",
+			"definition": "Plan, idea, suggestion",
+			"otherForms": []
+		},
+		{
+			"kanji": "九九",
+			"hiragana": "くく",
+			"definition": "Multiplication table",
+			"otherForms": []
+		},
+		{
+			"kanji": "悲劇",
+			"hiragana": "ひげき",
+			"definition": "Tragedy; tragic drama",
+			"otherForms": []
+		},
+		{
+			"kanji": "似合う",
+			"hiragana": "にあう",
+			"definition": "To suit, to match",
+			"otherForms": [
+				"似合い"
+			]
+		},
+		{
+			"kanji": "掛け算",
+			"hiragana": "かけざん",
+			"definition": "Multiplication",
+			"otherForms": []
+		},
+		{
+			"kanji": "足し算",
+			"hiragana": "たしざん",
+			"definition": "Addition",
+			"otherForms": []
+		},
+		{
+			"kanji": "皮肉",
+			"hiragana": "ひにく",
+			"definition": "Irony",
+			"otherForms": []
+		},
+		{
+			"kanji": "込める",
+			"hiragana": "こめる",
+			"definition": "To load; To put into (emotion, effort), To include (Tax)　〜を込める",
+			"otherForms": []
+		},
+		{
+			"kanji": "近ごろ",
+			"hiragana": "ちかごろ",
+			"definition": "Nowadays, lately",
+			"otherForms": []
+		},
+		{
+			"kanji": "孫",
+			"hiragana": "まご",
+			"definition": "Grandchild",
+			"otherForms": []
+		},
+		{
+			"kanji": "煙突",
+			"hiragana": "えんとつ",
+			"definition": "Chimney, smokestack",
+			"otherForms": []
+		},
+		{
+			"kanji": "教わる",
+			"hiragana": "おそわる",
+			"definition": "To be taught, To learn, to take lessons",
+			"otherForms": []
+		},
+		{
+			"kanji": "余裕",
+			"hiragana": "よゆう",
+			"definition": "Surplus, Margin, room, space",
+			"otherForms": []
+		},
+		{
+			"kanji": "役者",
+			"hiragana": "やくしゃ",
+			"definition": "Actor, actress",
+			"otherForms": []
+		},
+		{
+			"kanji": "両立",
+			"hiragana": "りょうりつ",
+			"definition": "Compatibility",
+			"otherForms": []
+		},
+		{
+			"kanji": "筆者",
+			"hiragana": "ひっしゃ",
+			"definition": "Author",
+			"otherForms": []
+		},
+		{
+			"kanji": "信じる",
+			"hiragana": "しんじる",
+			"definition": "to believe; to believe in; to place trust in; to confide in; to have faith in",
+			"otherForms": []
+		},
+		{
+			"kanji": "いくつも",
+			"hiragana": "いくつも",
+			"definition": "Many",
+			"otherForms": []
+		},
+		{
+			"kanji": "それでも",
+			"hiragana": "それでも",
+			"definition": "but (still); and yet; nevertheless; even so; notwithstanding",
+			"otherForms": []
+		},
+		{
+			"kanji": "発想",
+			"hiragana": "はっそう",
+			"definition": "Idea, way of thinking",
+			"otherForms": []
+		},
+		{
+			"kanji": "かも知れません",
+			"hiragana": "かもしれません",
+			"definition": "may; might; perhaps; may be; possibly​",
+			"otherForms": []
+		},
+		{
+			"kanji": "かな",
+			"hiragana": "かな",
+			"definition": "I wonder",
+			"otherForms": []
+		}
+	]
 }
