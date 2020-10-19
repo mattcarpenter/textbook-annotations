@@ -30,8 +30,13 @@ const honbuns = [
     file: '../../data/ch6step1.txt'
   },
   {
-    name: '情報２',
-    file: '../../data/jouhou2.txt',
+    name: 'BS1',
+    file: '../../data/BS1.txt',
+    vocabOnly: true
+  },
+  {
+    name: 'BS2',
+    file: '../../data/BS2.txt',
     vocabOnly: true
   }
 ];
