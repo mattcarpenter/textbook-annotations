@@ -1770,6 +1770,152 @@
 			"hiragana": "かんしん",
 			"definition": "admiration; being impressed",
 			"otherForms": []
+		},
+		{
+			"kanji": "嫌い",
+			"hiragana": "いやい",
+			"definition": "Disliked",
+			"otherForms": []
+		},
+		{
+			"kanji": "不機嫌",
+			"hiragana": "ふきげん",
+			"definition": "Pout",
+			"otherForms": []
+		},
+		{
+			"kanji": "戦争",
+			"hiragana": "せんそう",
+			"definition": "War",
+			"otherForms": []
+		},
+		{
+			"kanji": "銃後",
+			"hiragana": "じゅうご",
+			"definition": "Homefront",
+			"otherForms": []
+		},
+		{
+			"kanji": "戦地",
+			"hiragana": "せんち",
+			"definition": "Battlefront",
+			"otherForms": []
+		},
+		{
+			"kanji": "比べる",
+			"hiragana": "くらべる",
+			"definition": "Compare",
+			"otherForms": [
+				"比べて"
+			]
+		},
+		{
+			"kanji": "種類",
+			"hiragana": "しゅるい",
+			"definition": "Types",
+			"otherForms": []
+		},
+		{
+			"kanji": "理数科",
+			"hiragana": "りすうか",
+			"definition": "Sci＋Math",
+			"otherForms": []
+		},
+		{
+			"kanji": "信じられない",
+			"hiragana": "しんじられない",
+			"definition": "Incredible, unbelievable",
+			"otherForms": []
+		},
+		{
+			"kanji": "苦手",
+			"hiragana": "にがて",
+			"definition": "Poor at",
+			"otherForms": []
+		},
+		{
+			"kanji": "覚える",
+			"hiragana": "おぼえる",
+			"definition": "Memorize",
+			"otherForms": [
+				"覚えています"
+			]
+		},
+		{
+			"kanji": "教師",
+			"hiragana": "きょうし",
+			"definition": "Teacher",
+			"otherForms": []
+		},
+		{
+			"kanji": "現れる",
+			"hiragana": "あらわれる",
+			"definition": "To appear",
+			"otherForms": [
+				"現れて"
+			]
+		},
+		{
+			"kanji": "卒業",
+			"hiragana": "そつぎょう",
+			"definition": "Graduation",
+			"otherForms": []
+		},
+		{
+			"kanji": "吹く",
+			"hiragana": "ふく",
+			"definition": "To blow",
+			"otherForms": [
+				"吹かれて"
+			]
+		},
+		{
+			"kanji": "慣れる",
+			"hiragana": "なれる",
+			"definition": "Get used to",
+			"otherForms": [
+				"慣れなさい"
+			]
+		},
+		{
+			"kanji": "連れ出す",
+			"hiragana": "つれだす",
+			"definition": "Lure away",
+			"otherForms": [
+				"連れ出して"
+			]
+		},
+		{
+			"kanji": "回る",
+			"hiragana": "回る",
+			"definition": "To revolve",
+			"otherForms": [
+				"回って"
+			]
+		},
+		{
+			"kanji": "教わる",
+			"hiragana": "おそわる",
+			"definition": "Be taught",
+			"otherForms": [
+				"教わった"
+			]
+		},
+		{
+			"kanji": "明日",
+			"hiragana": "あす",
+			"definition": "Tomorrow",
+			"otherForms": [
+				"あすはちょっと"
+			]
+		},
+		{
+			"kanji": "返る",
+			"hiragana": "かえる",
+			"definition": "To return",
+			"otherForms": [
+				"返って"
+			]
 		}
 	]
 }
