@@ -1510,7 +1510,7 @@
 			"hiragana": "える",
 			"definition": "To get, earn, acquire",
 			"otherForms": [
-				"得ず"
+				"得ず=えず"
 			]
 		},
 		{
@@ -1548,9 +1548,9 @@
 			"hiragana": "おかす",
 			"definition": "To brave, to risk",
 			"otherForms": [
-				"冒さなければ",
-				"冒したり",
-				"冒さない"
+				"冒さなければ=おかさなければ",
+				"冒したり=おかしたり",
+				"冒さない=おかさない"
 			]
 		},
 		{
@@ -1576,7 +1576,8 @@
 			"hiragana": "ちかよる",
 			"definition": "To approach",
 			"otherForms": [
-				"近寄らず"
+				"近寄らず=ちかよらず",
+				" 近寄った=ちかよった"
 			]
 		},
 		{
@@ -1596,7 +1597,7 @@
 			"hiragana": "あらわす",
 			"definition": "To represent; stand for",
 			"otherForms": [
-				"表している"
+				"表している=あらわしている"
 			]
 		},
 		{
@@ -1610,7 +1611,7 @@
 			"hiragana": "ふえる",
 			"definition": "To increase",
 			"otherForms": [
-				"増えている"
+				"増えている=ふえている"
 			]
 		},
 		{
@@ -1630,7 +1631,7 @@
 			"hiragana": "こまる",
 			"definition": "Be troubled",
 			"otherForms": [
-				"困っている"
+				"困っている=こまっている"
 			]
 		},
 		{
@@ -1668,7 +1669,7 @@
 			"hiragana": "かわる",
 			"definition": "To change",
 			"otherForms": [
-				"変わってしまっている"
+				"変わってしまっている=かわってしまっている"
 			]
 		},
 		{
@@ -1724,7 +1725,7 @@
 			"hiragana": "にる",
 			"definition": "To resemble",
 			"otherForms": [
-				"似たこと"
+				"似た=にた"
 			]
 		},
 		{
@@ -1762,7 +1763,7 @@
 			"hiragana": "はたす",
 			"definition": "To accomplish",
 			"otherForms": [
-				"果たしている"
+				"果たしている=はたしている"
 			]
 		},
 		{
@@ -1806,7 +1807,7 @@
 			"hiragana": "くらべる",
 			"definition": "Compare",
 			"otherForms": [
-				"比べて"
+				"比べて=くらべて"
 			]
 		},
 		{
@@ -1838,7 +1839,7 @@
 			"hiragana": "おぼえる",
 			"definition": "Memorize",
 			"otherForms": [
-				"覚えています"
+				"覚えています=おぼえています"
 			]
 		},
 		{
@@ -1852,7 +1853,7 @@
 			"hiragana": "あらわれる",
 			"definition": "To appear",
 			"otherForms": [
-				"現れて"
+				"現れて=あらわれて"
 			]
 		},
 		{
@@ -1866,7 +1867,7 @@
 			"hiragana": "ふく",
 			"definition": "To blow",
 			"otherForms": [
-				"吹かれて"
+				"吹かれて=ふかれて"
 			]
 		},
 		{
@@ -1874,7 +1875,7 @@
 			"hiragana": "なれる",
 			"definition": "Get used to",
 			"otherForms": [
-				"慣れなさい"
+				"慣れなさい=なれなさい"
 			]
 		},
 		{
@@ -1882,15 +1883,15 @@
 			"hiragana": "つれだす",
 			"definition": "Lure away",
 			"otherForms": [
-				"連れ出して"
+				"連れ出して=つれだして"
 			]
 		},
 		{
 			"kanji": "回る",
-			"hiragana": "回る",
+			"hiragana": "まわる",
 			"definition": "To revolve",
 			"otherForms": [
-				"回って"
+				"回って=まわって"
 			]
 		},
 		{
@@ -1898,7 +1899,7 @@
 			"hiragana": "おそわる",
 			"definition": "Be taught",
 			"otherForms": [
-				"教わった"
+				"教わった=おそわった"
 			]
 		},
 		{
@@ -1914,7 +1915,7 @@
 			"hiragana": "かえる",
 			"definition": "To return",
 			"otherForms": [
-				"返って"
+				"返って=かえって"
 			]
 		}
 	]

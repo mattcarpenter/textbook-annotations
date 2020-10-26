@@ -19,6 +19,7 @@ const styles = {
 };
 
 const replaceGrammarPattern = /(\([\s\S][^()[\]]*?\)\[.+\])/g;
+const replaceVocabPattern = /((.+?)=(.+?),)/g;
 
 function Honbun({ honbun, grammar, vocab }) {
 
@@ -70,14 +71,20 @@ function Honbun({ honbun, grammar, vocab }) {
     [vocabTerm.kanji, ...vocabTerm.otherForms]
       .filter(t => t !== '')
       .forEach(t => {
-        replacedText = reactStringReplace(replacedText, t, (match, i) => {
+        let searchTerm = t;
+        let replacement = vocabTerm.hiragana;
+        if (t.indexOf('=') > -1) {
+          searchTerm = t.split('=')[0];
+          replacement = t.split('=')[1];
+        }
+        replacedText = reactStringReplace(replacedText, searchTerm, (match, i) => { // old 2nd arg = t
           annotationId++;
           vocabTerm.annotationIds.push(annotationId);
           return (
             <AnnotatedVocab
               className={`vocab-${annotationId}`}
               text={match}
-              reading={vocabTerm.hiragana}
+              reading={replacement} // used to be vocabTerm.hiragana
               definition={vocabTerm.definition}
               onClick={() => {}}
             />
