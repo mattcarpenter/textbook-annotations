@@ -1577,7 +1577,7 @@
 			"definition": "To approach",
 			"otherForms": [
 				"近寄らず=ちかよらず",
-				" 近寄った=ちかよった"
+				"近寄ったり=ちかよったり"
 			]
 		},
 		{
@@ -1669,7 +1669,9 @@
 			"hiragana": "かわる",
 			"definition": "To change",
 			"otherForms": [
-				"変わってしまっている=かわってしまっている"
+				"変わってしまっている=かわってしまっている",
+				"変わって=かわって",
+				"変わらない=かわらない"
 			]
 		},
 		{
@@ -1718,7 +1720,9 @@
 			"kanji": "非常",
 			"hiragana": "ひじょう",
 			"definition": "Emergency",
-			"otherForms": []
+			"otherForms": [
+				"非\n常=ひじょう"
+			]
 		},
 		{
 			"kanji": "似る",
@@ -1917,6 +1921,64 @@
 			"otherForms": [
 				"返って=かえって"
 			]
+		},
+		{
+			"kanji": "危ない",
+			"hiragana": "危ない",
+			"definition": "Dangerous",
+			"otherForms": []
+		},
+		{
+			"kanji": "違う",
+			"hiragana": "ちがう",
+			"definition": "To differ",
+			"otherForms": [
+				"違った=ちがった"
+			]
+		},
+		{
+			"kanji": "助ける",
+			"hiragana": "たすける",
+			"definition": "To save",
+			"otherForms": [
+				"助けられる=たすけられる"
+			]
+		},
+		{
+			"kanji": "親切",
+			"hiragana": "しんせつ",
+			"definition": "Kind",
+			"otherForms": []
+		},
+		{
+			"kanji": "他人",
+			"hiragana": "たにん",
+			"definition": "Other people",
+			"otherForms": []
+		},
+		{
+			"kanji": "最近",
+			"hiragana": "さいきん",
+			"definition": "Recently",
+			"otherForms": []
+		},
+		{
+			"kanji": "短い",
+			"hiragana": "みじかい",
+			"definition": "Short",
+			"otherForms": []
+		},
+		{
+			"kanji": "物事",
+			"hiragana": "ものごと",
+			"definition": "Things; everything",
+			"otherForms": []
+		},
+		{
+			"kanji": "言語",
+			"hiragana": "げんご",
+			"definition": "Language",
+			"otherForms": []
 		}
 	]
 }

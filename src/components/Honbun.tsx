@@ -65,7 +65,9 @@ function Honbun({ honbun, grammar, vocab }) {
   // prepare vocab annotations
   let annotationId = 0;
   let vocabId = 0;
-  vocab.forEach(vocabTerm => {
+  vocab
+    .sort((a, b) => b.kanji.length - a.kanji.length)
+    .forEach(vocabTerm => {
     vocabId++;
     vocabTerm.annotationIds = [];
     [vocabTerm.kanji, ...vocabTerm.otherForms]
