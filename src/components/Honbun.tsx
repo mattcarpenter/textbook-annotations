@@ -28,6 +28,7 @@ function Honbun({ honbun, grammar, vocab }) {
   const [grammarDrawerContent, setGrammarDrawerContent] = useState();
   const [grammarDrawerLookupTerm, setGrammarDrawerLookupTerm] = useState();
   const [selectionTranslation, setSelectionTranslation] = useState('');
+  const [checked, setChecked] = useState(false);
 
   const honbunEl = useRef(null);
   const definitionElements: JSX.Element[] = [];
@@ -63,52 +64,56 @@ function Honbun({ honbun, grammar, vocab }) {
   );
 
   // prepare vocab annotations
-  let annotationId = 0;
-  let vocabId = 0;
-  vocab
-    .sort((a, b) => b.kanji.length - a.kanji.length)
-    .forEach(vocabTerm => {
-    vocabId++;
-    vocabTerm.annotationIds = [];
-    [vocabTerm.kanji, ...vocabTerm.otherForms]
-      .filter(t => t !== '')
-      .forEach(t => {
-        let searchTerm = t;
-        let replacement = vocabTerm.hiragana;
-        if (t.indexOf('=') > -1) {
-          searchTerm = t.split('=')[0];
-          replacement = t.split('=')[1];
-        }
-        replacedText = reactStringReplace(replacedText, searchTerm, (match, i) => { // old 2nd arg = t
-          annotationId++;
-          vocabTerm.annotationIds.push(annotationId);
-          return (
-            <AnnotatedVocab
-              className={`vocab-${annotationId}`}
-              text={match}
-              reading={replacement} // used to be vocabTerm.hiragana
-              definition={vocabTerm.definition}
-              onClick={() => {}}
-            />
-          );
-        });
-    });
+  if (!checked) {
+    let annotationId = 0;
+    let vocabId = 0;
+    vocab
+      .sort((a, b) => b.kanji.length - a.kanji.length)
+      .forEach(vocabTerm => {
+        vocabId++;
+        vocabTerm.annotationIds = [];
+        [vocabTerm.kanji, ...vocabTerm.otherForms]
+          .filter(t => t !== '')
+          .forEach(t => {
+            let searchTerm = t;
+            let replacement = vocabTerm.hiragana;
+            if (t.indexOf('=') > -1) {
+              searchTerm = t.split('=')[0];
+              replacement = t.split('=')[1];
+            }
+            replacedText = reactStringReplace(replacedText, searchTerm, (match, i) => { // old 2nd arg = t
+              annotationId++;
+              vocabTerm.annotationIds.push(annotationId);
+              return (
+                <AnnotatedVocab
+                  className={`vocab-${annotationId}`}
+                  text={match}
+                  reading={replacement} // used to be vocabTerm.hiragana
+                  definition={vocabTerm.definition}
+                  onClick={() => {
+                  }}
+                />
+              );
+            });
+          });
 
-    // any matches?
-    if (vocabTerm.annotationIds.length) {
-      // Create definition element
-      definitionElements.push(
-        <div>
-          <div className={`definition-${vocabId}`}>
-            {vocabTerm.definition}
-          </div>
-        </div>
-      );
-    }
-  });
+        // any matches?
+        if (vocabTerm.annotationIds.length) {
+          // Create definition element
+          definitionElements.push(
+            <div>
+              <div className={`definition-${vocabId}`}>
+                {vocabTerm.definition}
+              </div>
+            </div>
+          );
+        }
+      });
+  }
 
   return (
     <div>
+      <input type="checkbox" checked={checked} onClick={() => setChecked(!checked)}/> Hide Furigana
       <div style={styles} ref={honbunEl}>
         {replacedText}
       </div>
