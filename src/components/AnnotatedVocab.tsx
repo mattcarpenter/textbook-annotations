@@ -3,7 +3,7 @@ import reactStringReplace from 'react-string-replace';
 
 function AnnotatedVocab({text, reading, definition, onClick, className}) {
   const replacedText = reactStringReplace(text, '\n', () => <br />);
-  const truncatedDefinition = definition.slice(0, text.length * 4);
+  const truncatedDefinition = definition.slice(0, text.length * 5);
   return (
     <span
       className={className}
