@@ -38,6 +38,11 @@ const honbuns = [
     name: 'BS2',
     file: '../../data/BS2.txt',
     vocabOnly: true
+  },
+  {
+    name: 'FTS1',
+    file: '../../data/FTS1.txt',
+    vocabOnly: true
   }
 ];
 
