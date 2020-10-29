@@ -2415,6 +2415,32 @@
 			"hiragana": "よぼう",
 			"definition": "Prevention",
 			"otherForms": []
+		},
+		{
+			"kanji": "問題解決",
+			"hiragana": "もんだいかいけつ",
+			"definition": "Problem solving",
+			"otherForms": []
+		},
+		{
+			"kanji": "可能性",
+			"hiragana": "かのうせい",
+			"definition": "Likelihood",
+			"otherForms": []
+		},
+		{
+			"kanji": "探ぐる",
+			"hiragana": "さぐる",
+			"definition": "Feel around",
+			"otherForms": [
+				"探ろう=さぐろう"
+			]
+		},
+		{
+			"kanji": "権威",
+			"hiragana": "けんい",
+			"definition": "Authority",
+			"otherForms": []
 		}
 	]
 }
